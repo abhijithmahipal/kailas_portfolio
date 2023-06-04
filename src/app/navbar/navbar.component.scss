@@ -9,3 +9,6 @@
     pointer-events: auto;
   }
   
+  .nav-item {
+    @apply text-gray-800 hover:text-gray-500 my-2 text-3xl
+  }
