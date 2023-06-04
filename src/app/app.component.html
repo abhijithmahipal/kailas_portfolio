@@ -1,9 +1,17 @@
 <div class="h-screen flex flex-col">
   <app-navbar></app-navbar>
-  <div class="flex-1">
-    <router-outlet></router-outlet>
-  </div>
+  <section id="home" class="nav-section">
+    <app-home></app-home>
+  </section>
+
+  <section id="about" class="nav-section">
+    <app-about></app-about>
+  </section>
+
+  <section id="contact" class="nav-section">
+    <app-contact></app-contact>
+  </section>
+  <footer class="text-center text-gray-500 text-sm py-4">
+    <p>&copy; 2023 Abhijith Mahipal M. All rights reserved.</p>
+  </footer>
 </div>
-<footer class="text-center text-gray-500 text-sm py-4">
-  <p>&copy; 2023 Abhijith Mahipal M. All rights reserved.</p>
-</footer>
