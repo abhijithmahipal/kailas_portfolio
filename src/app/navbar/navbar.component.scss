@@ -1,0 +1,11 @@
+[app-navbar] .fixed {
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  [app-navbar] .fixed.in {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
