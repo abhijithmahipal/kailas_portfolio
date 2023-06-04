@@ -38,17 +38,17 @@
 
   <div
     *ngIf="isMobileMenuOpen"
-    class="fixed inset-0 flex items-center justify-center z-50 bg-white"
+    class="fixed flex-col inset-0 flex items-center justify-center z-50 bg-white"
   >
+    <div class="flex items-center justify-end mb-4">
+      <button
+        (click)="toggleMobileMenu()"
+        class="text-gray-800 hover:text-gray-500 focus:outline-none focus:text-gray-500"
+      >
+        <i class="fas fa-times fa-lg"></i>
+      </button>
+    </div>
     <div class="p-4">
-      <div class="flex items-center justify-end mb-4">
-        <button
-          (click)="toggleMobileMenu()"
-          class="text-gray-800 hover:text-gray-500 focus:outline-none focus:text-gray-500"
-        >
-          <i class="fas fa-times fa-lg"></i>
-        </button>
-      </div>
       <div class="flex flex-col items-center">
         <a
           routerLink="/home"
