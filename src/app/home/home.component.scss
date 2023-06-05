@@ -14,3 +14,7 @@
 .animate-amoeba {
   animation: amoeba 3s infinite;
 }
+
+a {
+  @apply rounded-full  p-3 m-2 shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg w-12 h-12 justify-center items-center flex;
+}
